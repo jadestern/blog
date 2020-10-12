@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Jade Stern',
   tagline: 'Frontend Developer',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://jadestern-record.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
