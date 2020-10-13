@@ -6,7 +6,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'jadestern',
-  projectName: 'blog', // Usually your repo name.
+  projectName: 'blog',
   plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
     navbar: {
@@ -63,7 +63,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} JadeStern, Inc. Built with Docusaurus.`,
     },
     googleAnalytics: {
-      trackingID: 'UA-141789564-1',
+      trackingID: 'UA-180458991-1',
     },
   },
   themes: ['@docusaurus/theme-live-codeblock'],
