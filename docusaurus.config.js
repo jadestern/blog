@@ -64,6 +64,8 @@ module.exports = {
     },
     googleAnalytics: {
       trackingID: 'UA-180458991-1',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
     },
   },
   themes: ['@docusaurus/theme-live-codeblock'],
