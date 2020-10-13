@@ -62,6 +62,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} JadeStern, Inc. Built with Docusaurus.`,
     },
   },
+  themes: ['@docusaurus/theme-live-codeblock'],
   presets: [
     [
       '@docusaurus/preset-classic',
