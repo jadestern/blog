@@ -1,12 +1,13 @@
 module.exports = {
   title: 'Jade Stern',
   tagline: 'Frontend Developer',
-  url: 'https://jadestern-record.netlify.app',
+  url: 'https://jadestern.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'jadestern',
   projectName: 'blog', // Usually your repo name.
+  plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
     navbar: {
       title: 'Jade Stern\`s',
@@ -61,6 +62,9 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} JadeStern, Inc. Built with Docusaurus.`,
     },
+    googleAnalytics: {
+      trackingID: 'UA-141789564-1',
+    },
   },
   themes: ['@docusaurus/theme-live-codeblock'],
   presets: [
@@ -85,4 +89,5 @@ module.exports = {
       },
     ],
   ],
+
 };
