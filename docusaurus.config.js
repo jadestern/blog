@@ -7,7 +7,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'jadestern',
   projectName: 'blog',
-  plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
     navbar: {
       title: 'Jade Stern\`s',
@@ -65,7 +64,7 @@ module.exports = {
     googleAnalytics: {
       trackingID: 'UA-180458991-1',
       // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
+      anonymizeIP: false, // Should IPs be anonymized?
     },
   },
   themes: ['@docusaurus/theme-live-codeblock'],
